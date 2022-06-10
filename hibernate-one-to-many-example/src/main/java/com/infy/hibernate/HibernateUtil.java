@@ -28,7 +28,7 @@ public class HibernateUtil {
         settings.put("hibernate.connection.username", "root");
         settings.put("hibernate.connection.password", "Mysql@123");
         settings.put("hibernate.show_sql", "true");
-        settings.put("hibernate.hbm2ddl.auto", "create");
+        settings.put("hibernate.hbm2ddl.auto", "update");
 
         registryBuilder.applySettings(settings);
 

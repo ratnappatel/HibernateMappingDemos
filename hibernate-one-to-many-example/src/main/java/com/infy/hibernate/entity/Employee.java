@@ -25,7 +25,7 @@ public class Employee {
    private String designation;
 
    @ManyToOne
-   @JoinColumn(name = "DPT_ID")
+   @JoinColumn(name = "DPT_ID")// will be created as Foreign key in table 
    private Department department;
 
    public Employee() {
